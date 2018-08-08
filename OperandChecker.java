@@ -1,8 +1,10 @@
-public class OperandChecker {
+public class OperandChecker 
+{
 	public static  boolean isOperand(char s)
 	{
+		boolean flag = false;
 		if(48<=s&&57>=s)
-			return true;
-		return false;
+			flag = true;
+		return flag;
 	}
 }
